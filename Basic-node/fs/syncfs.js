@@ -6,16 +6,16 @@ const filePath = path.join(__dirname, fileName);
 console.log(__dirname);
 
 
-// const writeFile = fs.writeFileSync(
-//   fileName,
-//   "This is the initial Data.",
-//   'utf-8'
-// )
-// console.log(writeFile);
+const writeFile = fs.writeFileSync(
+  fileName,
+  "This is the initial Data.",
+  'utf-8'
+)
+console.log(writeFile);
 
-// const readFile = fs.readFileSync(filePath, "utf-8");
-// console.log(readFile.toString());
-// console.log(readFile);
+const readFile = fs.readFileSync(filePath, "utf-8");
+console.log(readFile.toString());
+console.log(readFile);
 
 const appendFile = fs.appendFileSync(
   fileName,
