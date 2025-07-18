@@ -27,8 +27,8 @@ console.log(appendFile);
 const fileDelete = fs.unlinkSync(filePath);
 console.log(fileDelete);
 
-const newUpdatedFileName = "updateTest.txt";
-const newFilePath = path.join(__dirname, newUpdatedFileName);
-const renameFile = fs.renameSync(filePath, newFilePath);
+// const newUpdatedFileName = "updateTest.txt";
+// const newFilePath = path.join(__dirname, newUpdatedFileName);
+// const renameFile = fs.renameSync(filePath, newFilePath);
 
-console.log(renameFile)
+// console.log(renameFile);
