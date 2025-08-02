@@ -11,3 +11,5 @@ console.log(arr);
 
 arr.push("Amazon");
 console.log(arr);
+
+console.log(arr.toString());
