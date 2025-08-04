@@ -15,7 +15,7 @@ for(let i=0; i<=n; i++){
 console.log(arr);
 
 const sum = arr.reduce((res, curr)=>{
-    return res+curr;
+    return res + curr;
 });
 
 const product = arr.reduce((res, curr) => {
