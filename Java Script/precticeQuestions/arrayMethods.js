@@ -12,7 +12,6 @@ arr =[];
 for(let i=0; i<=n; i++){
  arr[i-1] = i;
 }
-
 console.log(arr);
 
 const sum = arr.reduce((res, curr)=>{
