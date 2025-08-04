@@ -19,8 +19,7 @@ const vowCount = (str) => {
             count++;
         }
       }
-    console.log(str);
       return count;
 }
 
-vowCount("Radha Krishna");
+
