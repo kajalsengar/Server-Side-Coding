@@ -42,7 +42,7 @@ const playGame = (userChoice) => {
     } else{
             let userWin = true;
             if (userChoice === "Rock") {
-            userWin = compChoice === "paper"? false : true;
+            userWin = compChoice === "Paper"? false : true;
             }else if (userChoice === "Paper") {
                 userWin = compChoice === "Scissor"? false : true;
             }else{
