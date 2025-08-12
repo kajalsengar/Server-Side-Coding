@@ -18,7 +18,7 @@ class Admin extends User{
     }
 
     editData(){
-        DATA = "new secret information"
+        DATA = "new secret information.."
     }
 }
 
