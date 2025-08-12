@@ -24,5 +24,6 @@ class Admin extends User{
 
 let student = new User("kajal", "kajal1@gmail.com");
 let student2 = new User("adik", "adik10@gmail.com");
+let teacher = new User("dean" , "dean0@email.com");
 
 let admin = new Admin("admin" , "admin123@email.com");
