@@ -5,6 +5,7 @@ function calculator (a,b,operator){
     if(operator=='/') return a/b;
 }
 
+// IIFEs function
 (function(){
     console.log(5+100);
 })();
