@@ -1,7 +1,7 @@
 // const add = require("./math")
 // const multi = require("./math")
 
-const {add ,multi ,sub ,div , PI}= require("./math");
+import { add, multi, sub, div, PI } from "./math";
 // const math = require("./math")
 
 // console.log(math.add ( 4 , 5));

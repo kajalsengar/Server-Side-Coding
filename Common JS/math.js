@@ -19,4 +19,4 @@
 //  module.exports.add =add;
 //  module.exports.multi = multi;
 
- module.exports = {add , multi,div,sub , PI}
+ export default {add , multi,div,sub , PI}

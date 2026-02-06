@@ -20,3 +20,4 @@ mixed.pop()
 number.pop()
 
 console.log(mixed)
+console.log(number)
