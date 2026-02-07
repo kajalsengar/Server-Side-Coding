@@ -17,4 +17,6 @@ async function getAllData() {
     await getData(3);
     console.log("getting data 4....");
     await getData(4);
+    console.log("getting data 5.....");
+    await getData(5);
 }
