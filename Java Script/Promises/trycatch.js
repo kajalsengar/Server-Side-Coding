@@ -1,11 +1,11 @@
-try {
-    let res = 10/7;
-    if(!isFinite (res)){
-        throw new Error("can not devide zero..");
+async function fetchData(params) {
+    try{
+        let res = await fetch("https://jsonplaceholder.typicode.com/posts/1");
+        let d  = await res.json();
+        console.log(d);
+    }catch(error){
+        console.error("error occured:", error.message)
     }
-    console.log(res);
-}catch (error){
-    console.error("error Occurred:", error.message)
-}finally{
-    console.log("execution completed!")
 }
+
+fetchData();
